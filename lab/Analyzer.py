@@ -1,6 +1,6 @@
 import re
 from collections import Counter
-import pymorphy3
+import pymorphy3 #встановлено через !pip install pymorphy3 pymorphy3-dicts-uk
 
 remove_rules = [
     (r"(?<!\bком)(?<=[бвгґджзклмнпстфхцчшщ])([бпвмф])’(?!я[зжлкн])(?=[яюєї])", r"\1",
